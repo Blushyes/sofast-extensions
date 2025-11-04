@@ -1,8 +1,8 @@
-# Sofast 扩展示例
+# 如快扩展示例
 
 [English](README_en.md) | 中文
 
-这里收集了一些 [Sofast](https://sofast.fun) 的插件示例。
+这里收集了一些 [如快](https://sofast.fun) 的插件示例。
 
 如果你对某个插件感兴趣，可以尝试进行修改，欢迎贡献 PR！
 
