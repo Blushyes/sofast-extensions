@@ -1,0 +1,28 @@
+{
+  "name": "snake",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && (cp package.json dist/package.json || copy package.json dist\\package.json >NUL)",
+    "preview": "vite preview"
+  },
+  "commands": [
+    {
+      "name": "snake",
+      "title": "贪吃蛇",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@sofastapp/api": "^0.0.2",
+    "@tailwindcss/vite": "^4.1.10",
+    "kontra": "10.0.2",
+    "tailwindcss": "^4.1.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.1.6"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "todolist",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && (cp package.json dist/package.json || copy package.json dist\\package.json >NUL)",
+    "preview": "vite preview"
+  },
+  "commands": [
+    {
+      "name": "todo-list",
+      "title": "查看待办列表",
+      "mode": "view",
+      "searchable": true,
+      "placeholder": "输入并回车添加待办"
+    }
+  ],
+  "dependencies": {
+    "@sofastapp/api": "^0.0.2",
+    "@sofastapp/react-components": "^0.0.1",
+    "@tailwindcss/vite": "^4.1.10",
+    "lucide-react": "^0.548.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.10"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.6"
+  }
+}
