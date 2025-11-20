@@ -10,6 +10,7 @@
 
 - `extensions/todolist`：一个简单实用的待办清单插件。
 - `extensions/snake`：一个简单的贪吃蛇游戏示例。
+- `extensions/jsont`：将 [Jsont](https://jsont.run/) 在线 JSON 工具嵌入如快的插件示例。
 
 其他示例
 

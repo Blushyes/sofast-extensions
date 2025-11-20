@@ -1,0 +1,23 @@
+{
+  "name": "jsont",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && (cp package.json dist/package.json || copy package.json dist\\package.json >NUL)",
+    "preview": "vite preview"
+  },
+  "commands": [
+    {
+      "name": "jsont",
+      "title": "Jsont",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^7.1.6",
+    "typescript": "^5.9.2"
+  }
+}

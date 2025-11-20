@@ -10,6 +10,7 @@ Examples
 
 - `extensions/todolist`: a minimal todo list plugin.
 - `extensions/snake`: a simple Snake game example.
+- `extensions/jsont`: an example plugin that embeds the [Jsont](https://jsont.run/) online JSON tool into Sofast.
 
 Others
 
